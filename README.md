@@ -8,4 +8,4 @@ I'm on duty for lunch. I have to change the list of lunch participants every wee
 * Participants counts in the sales department are divided equally or have one person difference.
 * Some participants have lunch at a fixed time.
 
-Outputs a monthly list if an array of participant names is specified.
+Output a monthly list if an array of participant names is specified.
