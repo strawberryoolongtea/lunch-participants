@@ -1,0 +1,63 @@
+html, body, div, ul {margin: 0; padding: 0;}
+li {list-style: none;}
+a {text-decoration: none; color: #333;}
+h3 {text-align: center;}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {}
+header .inner {}
+header .inner .title {margin: 50px 0;}
+
+section.name {}
+section.name h3{}
+section.name .inner {}
+section.name .inner input[type="text"] {
+  margin: 0; padding: 0;
+  height: 30px;
+  border: 1px solid #c8c8c8;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+section.name .inner input[type="button"] {
+  margin: 0; padding: 0;
+  width: 40px;
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid #c8c8c8;
+  border-radius: 3px;
+  transition: background-color .5s;
+}
+
+section .btns {
+  display: flex;
+}
+section .btns .btn {
+  margin: 10px;
+  border: 1px solid #c8c8c8;
+  border-radius: 3px;
+  transition: background-color .5s;
+}
+section .btns .btn a {
+  display: block;
+  padding: 5px 10px;
+}
+section .on {
+  border: none;
+  background-color: #333;
+}
+section .on a {color: #fff;}
+
+section.data-table {}
+section.data-table .inner {}
+section.data-table .inner .data-list {
+  display: flex;
+}
+section.data-table .inner .data-list li {
+  margin: 10px 5px;
+}

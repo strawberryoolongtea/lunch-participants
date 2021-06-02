@@ -4,9 +4,63 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Lunch Participants</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script defer src="./assets/js/script.js"></script>
 </head>
 <body>
-  
+  <div id="wrapper">
+    <header>
+      <div class="inner">
+        <h2 class="title">Lunch Participants</h2>
+      </div>
+    </header>
+    <section class="name">
+      <h3>Enter the name</h3>
+      <div class="inner">
+        <input type="text" class="name-value" placeholder="이름을 입력하세요.">
+        <input type="button" value="입력" class="name-button">
+      </div>
+    </section>
+    <section class="department">
+      <h3>Choose department</h3>
+      <div class="inner">
+        <ul class="btns">
+          <li class="btn departButton"><a href="javascript:void(0)">Sales</a></li>
+          <li class="btn departButton"><a href="javascript:void(0)">Service</a></li>
+          <li class="btn departButton"><a href="javascript:void(0)">Shipping</a></li>
+          <li class="btn departButton"><a href="javascript:void(0)">Engineering</a></li>
+          <li class="btn departButton"><a href="javascript:void(0)">Design</a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="time">
+      <h3>Choose time</h3>
+      <div class="inner">
+        <ul class="btns">
+          <li class="btn timeButton"><a href="javascript:void(0)">11:30 ~ 12:00</a></li>
+          <li class="btn timeButton"><a href="javascript:void(0)">12:00 ~ 12:30</a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="data-table">
+      <h3>Data table</h3>
+      <div class="inner">
+        <ul class="data-list">
+          <li>Name :</li>
+          <li class="name"></li>
+        </ul>
+        <ul class="data-list">
+          <li>Department :</li>
+          <li class="department"></li>
+        </ul>
+        <ul class="data-list">
+          <li>Time : </li>
+          <li class="time"></li>
+        </ul>
+      </div>
+    </section>
+    <footer></footer>
+  </div>
 </body>
 </html>
